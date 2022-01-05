@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src="logo192.png" className="another" alt="logo" width="100" height="100" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,8 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React and enjoy yourself. This is a new year.
         </a>
+        <h1> Hello world </h1>
       </header>
     </div>
   );

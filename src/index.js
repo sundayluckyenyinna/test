@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Counter from './components/counter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Counter id="1" value="12" array="{[1,2,3,4]}" progressValue="25" />
   </React.StrictMode>,
   document.getElementById('root')
 );
